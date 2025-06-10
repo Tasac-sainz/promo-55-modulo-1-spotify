@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-spotify {
+    width: 100px;
+    height: auto;
+}
+
+.hamburguesa {
+    width: 20px;
+    height: 20px;
+}
+.premium-section{
+    background-color: rgb(81, 136, 246);
+    color: white;
+    /* font-family: ; hay que buscarla en Google Fonts y es la robot */
+}
