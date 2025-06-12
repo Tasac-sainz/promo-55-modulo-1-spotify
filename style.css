@@ -4,9 +4,11 @@
 }
 
 header{
-    background-color: black;
     display: flex;
     justify-content: space-between;
+    align-items: start;
+    background-color: black;
+    font-family: Roboto, sans-serif
 }
 
 .logo-spotify {
@@ -21,5 +23,37 @@ header{
 .premium-section{
     background-color: rgb(81, 136, 246);
     color: white;
-    /* font-family: ; hay que buscarla en Google Fonts y es la robot */
+    width: 100%;
+   
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, sans-serif;
+    border: solid;
+    
+}
+
+.premium-section {
+    display: flex;
+    padding: 200px;
+    flex-direction: column;
+    gap: 20px;
+    align-items: baseline;    
+              /* no conseguimos que los elementos estén abajo en lugar de centrados en su contenedor */
+}
+
+button {
+    display: flex;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: center;
+    background-color: rgb(73, 182, 73);
+    color:white;
+    border-radius: 10pt;
+    border: none;
+    font-size: 7pt;
+
 }
