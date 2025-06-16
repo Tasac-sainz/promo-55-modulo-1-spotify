@@ -180,6 +180,11 @@ footer {
         text-decoration: none;
         color: white;
            }
+    
+    .link a {
+        color: white;
+        text-decoration: none;
+    }
            
     .hamburguesa {
         display: none;
@@ -195,6 +200,7 @@ footer {
         align-items: center;
         text-align: left;
         justify-content: space-around;
+        margin-right: 30px;
            }
 
     h2   {
@@ -236,3 +242,9 @@ footer {
         gap: 40px;
              }
     }
+
+@media screen and (min-width: 1000 px) 
+
+    {
+    
+}
